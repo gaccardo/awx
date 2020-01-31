@@ -1,6 +1,10 @@
 # awx
 aws cli fast profile changer
 
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/pW5HkNO5N8U/0.jpg)](https://youtu.be/pW5HkNO5N8U "AWX in action")
+
+https://youtu.be/pW5HkNO5N8U
+
 The idea behind awx is the same concept that **kubectx** and **kubens** has,
 a very easy way to change profile. On this case, **awx** will change the global
 default AWS profile so you don't have to use *aws --profile [a profile]*.
