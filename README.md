@@ -111,6 +111,32 @@ profile2
 **profile3**
 ```
 
+### FZF integration
+
+This requires the package *fzf*. It's included in a lot of official
+repositories, I bet you'll find it in the one you're using right now.
+
+Create the following alias for awx
+
+```bash
+alias awx="awx | fzf --ansi | xargs -I {} awx {}"
+```
+
+Depending on the shell you're using is where the
+profile files will be, for example
+
+*bash*
+
+$HOME/.bashrc
+
+*zsh*
+
+$HOME/.zshrc
+
+*fish*
+
+$HOME/.config/fish/conf.d/init.fish
+
 ## TO-DO
 
 Profiles auto-completion
